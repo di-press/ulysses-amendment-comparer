@@ -1,0 +1,2 @@
+MODEL="/model"
+CONSULTANT="/consultant"
