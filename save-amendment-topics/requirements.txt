@@ -1,0 +1,5 @@
+Werkzeug==0.16.1
+Flask==1.1.4
+flask-restplus==0.13.0
+SQLAlchemy==2.0.19
+markupsafe==2.0.1
