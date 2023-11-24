@@ -16,4 +16,4 @@ class Instance:
         self.app.run(self.host, self.port, debug=self.debug)
 
 
-server = Instance(HOST, PORT, True)
+server = Instance(HOST, PORT, False)
