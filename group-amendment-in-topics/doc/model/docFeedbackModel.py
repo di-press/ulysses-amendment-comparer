@@ -40,7 +40,7 @@ class DocFeedbackModel(Resource):
         return result, 201
 
     @server.api.doc(responses={202: 'OK', 400: 'Parâmetros inválidos', 500: 'Erro na API'},
-                    description='Essa rota exlui um registro gerado pela LookForSimilar')
+                    description='Essa rota exclui um registro gerado pela LookForSimilar')
     @server.api.expect(server.api.model('DeleteModel', {'id': fields.Integer(example=1)}))
     def delete(self):
         payload = request.json
