@@ -45,7 +45,7 @@ graph TD;
     style D fill:#99CCFF,stroke:#333,stroke-width:2px;
     C -->|Amendments Grouped in Topics| E(group-amendment-in-topics);
     style C fill:#FFCC99,stroke-width:0px;
-    C -->|Consultant Feedback| E;
+    E -->|Consultant Feedback| E;
     style E fill:#FFFF99,stroke:#333,stroke-width:2px;
 ```
 
