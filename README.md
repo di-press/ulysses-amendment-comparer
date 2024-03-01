@@ -4,7 +4,7 @@ Groups documents according to predefined topics by a legal consultant (or user) 
 
 ## Create virtual environment
 
-This project was developed and ested under Python==3.8
+This project was developed and tested under Python==3.8
 
 Assuming you have Anaconda installed in your system, you can create the virtual environment:
 
